@@ -5,7 +5,8 @@ include ../build-files/vars.mk
 
 ISATAB_PATH=../isatab_ser
 
-IFLAGS = -I$(ISATAB_PATH) -I$(CANTERA_INCPATH) -I$(CANTERA_SRC)
+EX_PATH="/scratch/user/pokharel_sagar/builds/cantera/installed/usr/local/include" # for ptr.h
+IFLAGS = -I$(ISATAB_PATH) -I$(CANTERA_INCPATH)  -I$(EX_PATH) -I$(CANTERA_SRC)
 
 LIB_NAME = libct
 

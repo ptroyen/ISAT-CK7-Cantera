@@ -15,9 +15,9 @@ CPP = g++
 #        LINK_SYS_LIBS = -Bdynamic
 #endif
 
-CANTERA_LIBPATH=/usr/local/lib
-CANTERA_INCPATH=/usr/local/include/cantera
-CANTERA_SRC=/home/kalle/work/cantera/src # Needed for Cabinet.h
+CANTERA_LIBPATH=/scratch/user/pokharel_sagar/builds/cantera/installed/usr/local/lib
+CANTERA_INCPATH=/scratch/user/pokharel_sagar/builds/cantera/installed/usr/local/include/cantera
+CANTERA_SRC=/scratch/user/pokharel_sagar/builds/cantera/src # Needed for Cabinet.h
 
 CPPFLAGS= -O3 -fPIC
 
